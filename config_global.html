@@ -1,0 +1,16 @@
+<h2 style="color:red;">WARNING!</h2>
+<p>Using FirePHP on production sites can expose sensitive information.
+You must protect the security of your application by disabeling FirePHP logging on your live site.
+You can do this by removing the logging statements before you upload your code
+or by restricting FirePHP logging to authorized users only.</p>
+<p>For more information see <a href="http://www.firephp.org/HQ/Use.htm" target="_blank">www.firephp.org/HQ/Use.htm</a>.</p>
+
+<div style="text-align: center;">
+ <input type="hidden" name="block_firephp_active" value="0" />
+ <input type="checkbox" name="block_firephp_active" value="1"
+ <?php if(!empty($CFG->block_firephp_active)) echo 'checked="unchecked"'; ?> />
+ <?php print_string('activate', 'block_firephp'); ?>
+ <p>
+   <input type="submit" value="<?php print_string('savechanges', 'block_firephp'); ?>" />
+ </p>
+ </div>
