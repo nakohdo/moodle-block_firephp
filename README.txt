@@ -1,3 +1,5 @@
-I will move the code base here soon ;-)
+FirePHP block for Moodle 1.9
 
-Frank
+Further documentation to follow 
+
+Frank 
