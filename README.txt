@@ -1,3 +1,3 @@
-I will move the code base here soon ;-)
+FirePHP block for Moodle 2.0
 
 Frank
