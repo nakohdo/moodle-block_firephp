@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -15,4 +14,18 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
-$plugin->version = 2011032303;
+/**
+ * Version details
+ *
+ * @package    block
+ * @subpackage firephp
+ * @copyright  2011 onwards Frank Ralf
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @author     Frank Ralf <Frank.Ralf@gmx.net>
+ */
+
+defined('MOODLE_INTERNAL') || die();
+
+$plugin->version   = 2013050100;        // The current plugin version (Date: YYYYMMDDXX)
+$plugin->requires  = 2013050100;        // Requires this Moodle version
+$plugin->component = 'block_firephp'; // Full name of the plugin (used for diagnostics)
