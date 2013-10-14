@@ -26,6 +26,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2013050100;        // The current plugin version (Date: YYYYMMDDXX)
-$plugin->requires  = 2013050100;        // Requires this Moodle version
-$plugin->component = 'block_firephp'; // Full name of the plugin (used for diagnostics)
+$plugin->version   = 2013101400;
+$plugin->requires  = 2013051400; #2010112400;
+$plugin->component = 'block_firephp';
+$plugin->cron      = 0;
+$plugin->maturity  = MATURITY_RC;
+$plugin->release   = '1.0 (Build: 2013101400)';
