@@ -1,3 +1,6 @@
-FirePHP block for Moodle 2.0
+FirePHP block for Moodle 2.5
 
-Frank
+This block adds the FirePHP library to Moodle. It's mainly ment as a developer
+tool.
+
+Frank Ralf
